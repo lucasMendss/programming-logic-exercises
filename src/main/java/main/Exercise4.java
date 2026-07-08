@@ -1,4 +1,6 @@
-public class Exercise4 extends Exercise{
+package main;
+
+public class Exercise4 extends Exercise {
 
     public static void implementation(){
         System.out.println(visualDivisor);

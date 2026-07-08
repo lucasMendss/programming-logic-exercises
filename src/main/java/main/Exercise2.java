@@ -1,3 +1,5 @@
+package main;
+
 public class Exercise2 extends Exercise {
 
     public static void implementation(){

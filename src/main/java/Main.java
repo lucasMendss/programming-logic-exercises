@@ -3,6 +3,10 @@
 * github.com/lucasMendss
 * */
 
+import main.*;
+import streamsapi.Exercise10;
+import streamsapi.Exercise9;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -60,6 +64,14 @@ public class Main {
                 case 8 -> {
                     Exercise8.implementation();
                     lastRunnedExercise = 8;
+                }
+                case 9 -> {
+                    Exercise9.implementation();
+                    lastRunnedExercise = 9;
+                }
+                case 10 -> {
+                    Exercise10.implementation();
+                    lastRunnedExercise = 10;
                 }
                 default -> System.out.println("Número inválido.");
             }
